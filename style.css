@@ -1,0 +1,65 @@
+* {
+    box-sizing: border-box;
+    font-family: Arial, sans-serif;
+}
+
+body {
+    margin: 0;
+    background: #f8f3f7;
+}
+
+.app {
+    max-width: 420px;
+    margin: auto;
+    padding: 20px;
+}
+
+header {
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+header h1 {
+    margin-bottom: 5px;
+}
+
+header p {
+    margin-top: 0;
+}
+
+.saldo {
+    background: white;
+    padding: 20px;
+    border-radius: 20px;
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+.saldo h3 {
+    font-size: 32px;
+    margin: 10px 0;
+}
+
+.cards {
+    display: flex;
+    gap: 15px;
+}
+
+.card {
+    background: white;
+    flex: 1;
+    padding: 15px;
+    border-radius: 20px;
+    text-align: center;
+}
+
+.sonhos {
+    background: white;
+    margin-top: 20px;
+    padding: 20px;
+    border-radius: 20px;
+}
+
+h1, h2, h3, p {
+    color: #444;
+}
