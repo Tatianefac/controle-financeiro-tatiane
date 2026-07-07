@@ -11,65 +11,64 @@
 
 <div class="app">
 
-    <header class="topo">
-        <h1>Olá, Tatiane 🌸</h1>
-        <p>Vamos cuidar dos seus sonhos financeiros</p>
-    </header>
+    <section id="inicio">
+        <header class="topo">
+            <h1>Olá, Tatiane 🌸</h1>
+            <p>Vamos cuidar dos seus sonhos financeiros</p>
+        </header>
 
-    <section class="saldo">
-        <span>Saldo disponível</span>
-        <h2>R$ 0,00</h2>
-    </section>
-
-    <section class="resumo">
-
-        <div class="card">
-            <span>💰 Receitas</span>
-            <strong>R$ 0,00</strong>
+        <div class="saldo">
+            <span>Saldo disponível</span>
+            <h2 id="saldo">R$ 0,00</h2>
         </div>
 
-        <div class="card">
-            <span>💸 Despesas</span>
-            <strong>R$ 0,00</strong>
-        </div>
+        <div class="resumo">
+            <div class="card">
+                <span>💰 Receitas</span>
+                <strong id="receitas">R$ 0,00</strong>
+            </div>
 
+            <div class="card">
+                <span>💸 Despesas</span>
+                <strong id="despesas">R$ 0,00</strong>
+            </div>
+        </div>
     </section>
 
-    <section class="sonhos">
+
+    <section id="lancamentos" class="tela">
+        <h2>💳 Lançamentos</h2>
+
+        <button>+ Nova receita</button>
+        <button>- Nova despesa</button>
+    </section>
+
+
+    <section id="sonhos" class="tela">
         <h2>🎯 Meus Sonhos</h2>
-        <p>Organize suas metas e acompanhe suas conquistas.</p>
 
         <div class="meta">
-            <span>Meu próximo objetivo</span>
-            <strong>R$ 0,00</strong>
+            <p>Crie metas para realizar seus sonhos.</p>
         </div>
     </section>
 
+
+    <section id="relatorios" class="tela">
+        <h2>📊 Relatórios</h2>
+
+        <p>Acompanhe sua evolução financeira.</p>
+    </section>
+
+
     <nav class="menu">
-
-        <div>
-            🏠
-            <span>Início</span>
-        </div>
-
-        <div>
-            💳
-            <span>Lançamentos</span>
-        </div>
-
-        <div>
-            🎯
-            <span>Sonhos</span>
-        </div>
-
-        <div>
-            📊
-            <span>Relatórios</span>
-        </div>
-
+        <div>🏠<span>Início</span></div>
+        <div>💳<span>Lançamentos</span></div>
+        <div>🎯<span>Sonhos</span></div>
+        <div>📊<span>Relatórios</span></div>
     </nav>
 
 </div>
+
 
 <script src="script.js"></script>
 
