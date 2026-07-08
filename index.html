@@ -1,76 +1,54 @@
 <!DOCTYPE html>
 <html lang="pt-BR">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Financista Tatiane</title>
-    <link rel="stylesheet" href="style.css">
+    <title>Bloom Finance</title>
+
+    <link rel="stylesheet" href="css/style.css">
 </head>
 
 <body>
 
-<div class="app">
+    <div class="app">
 
-    <section id="inicio">
-        <header class="topo">
+        <header>
             <h1>Olá, Tatiane 🌸</h1>
-            <p>Vamos cuidar dos seus sonhos financeiros</p>
+            <p>Floresça sua vida financeira</p>
         </header>
 
-        <div class="saldo">
-            <span>Saldo disponível</span>
-            <h2 id="saldo">R$ 0,00</h2>
-        </div>
+        <main>
+            <section class="saldo">
+                <span>Saldo disponível</span>
+                <h2>R$ 0,00</h2>
+            </section>
 
-        <div class="resumo">
-            <div class="card">
-                <span>💰 Receitas</span>
-                <strong id="receitas">R$ 0,00</strong>
-            </div>
+            <section class="cards">
 
-            <div class="card">
-                <span>💸 Despesas</span>
-                <strong id="despesas">R$ 0,00</strong>
-            </div>
-        </div>
-    </section>
+                <div class="card">
+                    <span>💰 Receitas</span>
+                    <strong>R$ 0,00</strong>
+                </div>
 
+                <div class="card">
+                    <span>💸 Despesas</span>
+                    <strong>R$ 0,00</strong>
+                </div>
 
-    <section id="lancamentos" class="tela">
-        <h2>💳 Lançamentos</h2>
+            </section>
 
-        <button>+ Nova receita</button>
-        <button>- Nova despesa</button>
-    </section>
+            <section class="sonhos">
+                <h2>🎯 Meus Sonhos</h2>
+                <p>Transforme seus objetivos em conquistas.</p>
+            </section>
 
+        </main>
 
-    <section id="sonhos" class="tela">
-        <h2>🎯 Meus Sonhos</h2>
+    </div>
 
-        <div class="meta">
-            <p>Crie metas para realizar seus sonhos.</p>
-        </div>
-    </section>
-
-
-    <section id="relatorios" class="tela">
-        <h2>📊 Relatórios</h2>
-
-        <p>Acompanhe sua evolução financeira.</p>
-    </section>
-
-
-    <nav class="menu">
-        <div>🏠<span>Início</span></div>
-        <div>💳<span>Lançamentos</span></div>
-        <div>🎯<span>Sonhos</span></div>
-        <div>📊<span>Relatórios</span></div>
-    </nav>
-
-</div>
-
-
-<script src="script.js"></script>
+    <script src="js/app.js"></script>
 
 </body>
+
 </html>
